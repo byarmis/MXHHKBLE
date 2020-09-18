@@ -6,13 +6,13 @@ Using the [nice!nano](https://docs.nicekeyboards.com/#/), making a low-profile M
 
 # Hardware
 * PCB
-* Switches
+* [Switches](https://mechanicalkeyboards.com/search.php?keyword=choc+round)
 * Keycaps
-* nice!nano
-* Diodes
-* Battery
-* JST connector
-* Machine pins
+* [nice!nano](https://nicekeyboards.com/products/nice-nano-v1-0)
+* [1N4148 Diodes](https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=1n4148&k=&pkeyword=1n4148&sv=0&pv1291=404832&sf=1&FV=-8%7C280&quantity=&ColumnSort=0&page=1&pageSize=25)
+* [Battery](https://www.sparkfun.com/products/13112)
+* [JST connector](https://www.sparkfun.com/products/9749)
+* [Machine pins](https://www.sparkfun.com/products/743)
 * Through-hole leads
 * Stabilizers 
     * Space bar (7u)
