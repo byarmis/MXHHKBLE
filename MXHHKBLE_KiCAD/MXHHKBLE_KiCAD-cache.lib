@@ -1,0 +1,172 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# JST_S2B-PH-K-SLFSN
+#
+DEF JST_S2B-PH-K-SLFSN J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN
+F1 "JST_S2B-PH-K-SLFSN" 0 400 50 H V L CNN
+F2 "JST-S2B-PH-K-SLFSN-0-0-*" 0 500 50 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 0 600 50 H I L CNN
+F4 "Conn" 0 700 50 H I L CNN "category"
+F5 "CONN HEADER PH SIDE 2POS 2MM" 0 800 50 H I L CNN "digikey description"
+F6 "455-1719-ND" 0 900 50 H I L CNN "digikey part number"
+F7 "yes" 0 1000 50 H I L CNN "is connector"
+F8 "yes" 0 1100 50 H I L CNN "is male"
+F9 "yes" 0 1200 50 H I L CNN "lead free"
+F10 "357283e2657f25f6" 0 1300 50 H I L CNN "library id"
+F11 "JST" 0 1400 50 H I L CNN "manufacturer"
+F12 "HDR02" 0 1500 50 H I L CNN "package"
+F13 "yes" 0 1600 50 H I L CNN "rohs"
+F14 "+85°C" 0 1700 50 H I L CNN "temperature range high"
+F15 "-25°C" 0 1800 50 H I L CNN "temperature range low"
+DRAW
+S -400 200 -200 -400 1 1 0 f
+S -350 -180 -280 -220 1 1 0 F
+S -350 20 -280 -20 1 1 0 F
+P 2 1 1 0 -270 -200 -200 -200 N
+P 2 1 1 0 -270 0 -200 0 N
+X 1 1 -100 0 100 L 40 40 1 1 U
+X 2 2 -100 -200 100 L 40 40 1 1 U
+ENDDRAW
+ENDDEF
+#
+# MXHHKBLE_KiCAD_SW_SPST
+#
+DEF MXHHKBLE_KiCAD_SW_SPST SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "MXHHKBLE_KiCAD_SW_SPST" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X NC 1 -200 -200 100 R 50 50 1 1 N
+X A 2 -200 0 100 R 50 50 1 1 P
+X B 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_CUS-12TB_CUS-12TB
+#
+DEF Switch_CUS-12TB_CUS-12TB SW 0 40 Y Y 1 L N
+F0 "SW" 0 300 50 H V L CNN
+F1 "Switch_CUS-12TB_CUS-12TB" 0 400 50 H V L CNN
+F2 "Nidec_Copal-CUS-12TB-*" 0 500 50 H I L CNN
+F3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf" 0 600 50 H I L CNN
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Switch" 0 800 50 H I L CNN "category"
+F6 "300mA" 0 900 50 H I L CNN "contact current rating"
+F7 "70mΩ" 0 1000 50 H I L CNN "contact resistance"
+F8 "Electromechanical" 0 1100 50 H I L CNN "device class L1"
+F9 "Switches" 0 1200 50 H I L CNN "device class L2"
+F10 "Slide Switches" 0 1300 50 H I L CNN "device class L3"
+F11 "SWITCH SLIDE SPDT 300MA 4V" 0 1400 50 H I L CNN "digikey description"
+F12 "563-1102-1-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "10000Cycles" 0 1600 50 H I L CNN "electromechanical life"
+F14 "1.6mm" 0 1700 50 H I L CNN "height"
+F15 "Yes" 0 1800 50 H I L CNN "lead free"
+F16 "b6fc0434d0ec4b1d" 0 1900 50 H I L CNN "library id"
+F17 "Nidec Copal" 0 2000 50 H I L CNN "manufacturer"
+F18 "Surface Mount" 0 2100 50 H I L CNN "mount"
+F19 "2N" 0 2200 50 H I L CNN "operating force"
+F20 "SMT_SW_6MM7_4MM1" 0 2300 50 H I L CNN "package"
+F21 "Yes" 0 2400 50 H I L CNN "rohs"
+F22 "+70°C" 0 2500 50 H I L CNN "temperature range high"
+F23 "-20°C" 0 2600 50 H I L CNN "temperature range low"
+F24 "SPDT" 0 2700 50 H I L CNN "throw configuration"
+F25 "4V" 0 2800 50 H I L CNN "voltage rating DC"
+DRAW
+C 330 0 20 1 1 0 N
+C 470 -100 20 1 1 0 N
+C 470 100 20 1 1 0 N
+S 200 200 600 -700 1 1 0 f
+P 2 1 1 0 200 0 300 0 N
+P 2 1 1 0 330 0 490 70 N
+P 2 1 1 0 500 -100 600 -100 N
+P 2 1 1 0 600 100 500 100 N
+X 1 1 700 100 100 L 40 0 1 1 P
+X C 2 100 0 100 R 40 0 1 1 P
+X 3 3 700 -100 100 L 40 0 1 1 P
+X MNT_1 4 700 -300 100 L 40 40 1 1 P
+X MNT_2 5 700 -400 100 L 40 40 1 1 P
+X MNT_3 6 700 -500 100 L 40 40 1 1 P
+X MNT_4 7 700 -600 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# nice_nano_nice_nano_no_middle
+#
+DEF nice_nano_nice_nano_no_middle U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "nice_nano_nice_nano_no_middle" 0 100 60 H V C CNN
+F2 "" 1050 -2500 60 V I C CNN
+F3 "" 1050 -2500 60 V I C CNN
+DRAW
+S -500 -850 500 750 0 1 0 N
+X GND 1 -700 650 200 R 50 50 1 1 I
+X P1.00 10 -700 -250 200 R 50 50 1 1 I
+X P0.11 11 -700 -350 200 R 50 50 1 1 I
+X P1.04 12 -700 -450 200 R 50 50 1 1 I
+X P1.06 13 -700 -550 200 R 50 50 1 1 I
+X NFC1/P0.09 14 700 -550 200 L 50 50 1 1 I
+X NFC2/P0.10 15 700 -450 200 L 50 50 1 1 I
+X P1.11 16 700 -350 200 L 50 50 1 1 I
+X P1.13 17 700 -250 200 L 50 50 1 1 I
+X P1.15 18 700 -150 200 L 50 50 1 1 I
+X AIN0/P0.02 19 700 -50 200 L 50 50 1 1 I
+X TX0/P0.06 2 -700 550 200 R 50 50 1 1 I
+X AIN5/P0.29 20 700 50 200 L 50 50 1 1 I
+X AIN7/P0.31 21 700 150 200 L 50 50 1 1 I
+X VCC 22 700 250 200 L 50 50 1 1 I
+X RST 23 700 350 200 L 50 50 1 1 I
+X GND 24 700 450 200 L 50 50 1 1 I
+X BATIN/P0.04 25 700 550 200 L 50 50 1 1 I
+X BATIN/P0.04 26 700 650 200 L 50 50 1 1 I
+X RX1/P0.08 3 -700 450 200 R 50 50 1 1 I
+X GND 4 -700 350 200 R 50 50 1 1 I
+X GND 5 -700 250 200 R 50 50 1 1 I
+X P0.17 6 -700 150 200 R 50 50 1 1 I
+X P0.20 7 -700 50 200 R 50 50 1 1 I
+X P0.22 8 -700 -50 200 R 50 50 1 1 I
+X P0.24 9 -700 -150 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

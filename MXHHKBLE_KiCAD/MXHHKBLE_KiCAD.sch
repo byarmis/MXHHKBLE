@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5F67ED89
+P 3300 1100
+F 0 "#PWR0101" H 3300 850 50  0001 C CNN
+F 1 "GND" H 3305 927 50  0000 C CNN
+F 2 "" H 3300 1100 50  0001 C CNN
+F 3 "" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F67F52A
+P 1100 1550
+F 0 "#PWR0102" H 1100 1300 50  0001 C CNN
+F 1 "GND" H 1105 1377 50  0000 C CNN
+F 2 "" H 1100 1550 50  0001 C CNN
+F 3 "" H 1100 1550 50  0001 C CNN
+	1    1100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F67FC8E
+P 1000 2050
+F 0 "#PWR0103" H 1000 1800 50  0001 C CNN
+F 1 "GND" H 1005 1877 50  0000 C CNN
+F 2 "" H 1000 2050 50  0001 C CNN
+F 3 "" H 1000 2050 50  0001 C CNN
+	1    1000 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 1550 0    50   Input ~ 0
+col0
+Text GLabel 6850 1850 0    50   Input ~ 0
+col1
+Text GLabel 3700 2100 0    50   Input ~ 0
+row0
+Text GLabel 3700 2450 0    50   Input ~ 0
+row1
+Text GLabel 3700 2800 0    50   Input ~ 0
+row2
+Wire Wire Line
+	6900 1850 6850 1850
+$Comp
+L power:GND #PWR0104
+U 1 1 5F6A8992
+P 1750 3650
+F 0 "#PWR0104" H 1750 3400 50  0001 C CNN
+F 1 "GND" H 1755 3477 50  0000 C CNN
+F 2 "" H 1750 3650 50  0001 C CNN
+F 3 "" H 1750 3650 50  0001 C CNN
+	1    1750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F6B1BE9
+P 900 1000
+F 0 "#PWR0105" H 900 750 50  0001 C CNN
+F 1 "GND" H 905 827 50  0000 C CNN
+F 2 "" H 900 1000 50  0001 C CNN
+F 3 "" H 900 1000 50  0001 C CNN
+	1    900  1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1350 850  2050
+Wire Wire Line
+	850  2050 1000 2050
+Text GLabel 3000 850  0    50   Input ~ 0
+BAT
+Text GLabel 1450 3700 0    50   Input ~ 0
+BAT
+Wire Wire Line
+	3000 1050 3000 950 
+Connection ~ 3000 950 
+Wire Wire Line
+	3000 950  3000 850 
+$Comp
+L power:GND #PWR0106
+U 1 1 5F6CEC98
+P 5150 4650
+F 0 "#PWR0106" H 5150 4400 50  0001 C CNN
+F 1 "GND" H 5155 4477 50  0000 C CNN
+F 2 "" H 5150 4650 50  0001 C CNN
+F 3 "" H 5150 4650 50  0001 C CNN
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 3850 0    50   Input ~ 0
+BAT
+Text GLabel 3950 3950 0    50   Input ~ 0
+PowerToggle
+Text GLabel 3600 1450 0    50   Input ~ 0
+PowerToggle
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW3
+U 1 1 5F6E65C5
+P 4750 1500
+F 0 "SW3" H 4750 1735 50  0000 C CNN
+F 1 "SW_SPST" H 4750 1644 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 4750 1500 50  0001 C CNN
+F 3 "~" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW2
+U 1 1 5F6EBC12
+P 4750 2100
+F 0 "SW2" H 4750 2335 50  0000 C CNN
+F 1 "SW_SPST" H 4750 2244 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 4750 2100 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW1
+U 1 1 5F6EBF1C
+P 4700 2850
+F 0 "SW1" H 4700 3085 50  0000 C CNN
+F 1 "SW_SPST" H 4700 2994 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 4700 2850 50  0001 C CNN
+F 3 "~" H 4700 2850 50  0001 C CNN
+	1    4700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW5
+U 1 1 5F6EC21D
+P 6400 1650
+F 0 "SW5" H 6400 1885 50  0000 C CNN
+F 1 "SW_SPST" H 6400 1794 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 6400 1650 50  0001 C CNN
+F 3 "~" H 6400 1650 50  0001 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW6
+U 1 1 5F6EC74D
+P 6400 2250
+F 0 "SW6" H 6400 2485 50  0000 C CNN
+F 1 "SW_SPST" H 6400 2394 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 6400 2250 50  0001 C CNN
+F 3 "~" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW4
+U 1 1 5F6ECAC6
+P 6600 2750
+F 0 "SW4" H 6600 2985 50  0000 C CNN
+F 1 "SW_SPST" H 6600 2894 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 6600 2750 50  0001 C CNN
+F 3 "~" H 6600 2750 50  0001 C CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2100 4950 2850
+Wire Wire Line
+	4950 2850 4900 2850
+Connection ~ 4950 2100
+Wire Wire Line
+	6900 1650 6600 1650
+Wire Wire Line
+	6900 1850 6900 1650
+Wire Wire Line
+	6900 1850 6900 2250
+Wire Wire Line
+	6900 2250 6600 2250
+Connection ~ 6900 1850
+$Comp
+L Device:D D2
+U 1 1 5F6EF8C7
+P 4200 2450
+F 0 "D2" H 4200 2667 50  0000 C CNN
+F 1 "D" H 4200 2576 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4200 2450 50  0001 C CNN
+F 3 "~" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5F6EFCCF
+P 4250 2800
+F 0 "D3" H 4250 3017 50  0000 C CNN
+F 1 "D" H 4250 2926 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4250 2800 50  0001 C CNN
+F 3 "~" H 4250 2800 50  0001 C CNN
+	1    4250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5F6F7521
+P 5850 1750
+F 0 "D4" H 5850 1967 50  0000 C CNN
+F 1 "D" H 5850 1876 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 5850 1750 50  0001 C CNN
+F 3 "~" H 5850 1750 50  0001 C CNN
+	1    5850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5F6F7527
+P 5850 2100
+F 0 "D5" H 5850 2317 50  0000 C CNN
+F 1 "D" H 5850 2226 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 5850 2100 50  0001 C CNN
+F 3 "~" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5F6F752D
+P 5900 2450
+F 0 "D6" H 5900 2667 50  0000 C CNN
+F 1 "D" H 5900 2576 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 5900 2450 50  0001 C CNN
+F 3 "~" H 5900 2450 50  0001 C CNN
+	1    5900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1650 6000 1650
+Wire Wire Line
+	6000 1650 6000 1750
+Wire Wire Line
+	6200 2250 6000 2250
+Wire Wire Line
+	6000 2250 6000 2100
+Wire Wire Line
+	4500 2850 4400 2850
+Wire Wire Line
+	4400 2850 4400 2800
+Wire Wire Line
+	6400 2750 6050 2750
+Wire Wire Line
+	6050 2750 6050 2450
+Wire Wire Line
+	6900 2250 6900 2750
+Wire Wire Line
+	6800 2750 6900 2750
+Connection ~ 6900 2250
+Wire Wire Line
+	3700 2800 4100 2800
+Wire Wire Line
+	4950 1500 4950 1750
+Wire Wire Line
+	5200 1550 5200 1750
+Wire Wire Line
+	5200 1750 4950 1750
+Connection ~ 4950 1750
+Wire Wire Line
+	4950 1750 4950 2100
+Wire Wire Line
+	4550 1500 4350 1500
+$Comp
+L Device:D D1
+U 1 1 5F70E9B2
+P 4050 1850
+F 0 "D1" H 4050 2067 50  0000 C CNN
+F 1 "D" H 4050 1976 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4050 1850 50  0001 C CNN
+F 3 "~" H 4050 1850 50  0001 C CNN
+	1    4050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1500 4350 1850
+Wire Wire Line
+	4350 1850 4200 1850
+Wire Wire Line
+	4550 2100 4350 2100
+Wire Wire Line
+	4350 2100 4350 2450
+Wire Wire Line
+	3900 1850 3900 2100
+Wire Wire Line
+	4050 2450 3700 2450
+Wire Wire Line
+	3900 2100 3700 2100
+Text GLabel 5550 1750 0    50   Input ~ 0
+row0
+Text GLabel 5550 2100 0    50   Input ~ 0
+row1
+Text GLabel 5550 2450 0    50   Input ~ 0
+row2
+Wire Wire Line
+	5700 1750 5550 1750
+Wire Wire Line
+	5700 2100 5550 2100
+Wire Wire Line
+	5750 2450 5550 2450
+$Comp
+L Switch_CUS-12TB:CUS-12TB SW0
+U 1 1 5F74B428
+P 4150 3950
+F 0 "SW0" H 4550 4315 50  0000 C CNN
+F 1 "CUS-12TB" H 4550 4224 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Nidec_Copal-CUS-12TB-MFG" H 4150 4450 50  0001 L CNN
+F 3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf" H 4150 4550 50  0001 L CNN
+F 4 "No" H 4150 4650 50  0001 L CNN "automotive"
+F 5 "Switch" H 4150 4750 50  0001 L CNN "category"
+F 6 "300mA" H 4150 4850 50  0001 L CNN "contact current rating"
+F 7 "70mΩ" H 4150 4950 50  0001 L CNN "contact resistance"
+F 8 "Electromechanical" H 4150 5050 50  0001 L CNN "device class L1"
+F 9 "Switches" H 4150 5150 50  0001 L CNN "device class L2"
+F 10 "Slide Switches" H 4150 5250 50  0001 L CNN "device class L3"
+F 11 "SWITCH SLIDE SPDT 300MA 4V" H 4150 5350 50  0001 L CNN "digikey description"
+F 12 "563-1102-1-ND" H 4150 5450 50  0001 L CNN "digikey part number"
+F 13 "10000Cycles" H 4150 5550 50  0001 L CNN "electromechanical life"
+F 14 "1.6mm" H 4150 5650 50  0001 L CNN "height"
+F 15 "Yes" H 4150 5750 50  0001 L CNN "lead free"
+F 16 "b6fc0434d0ec4b1d" H 4150 5850 50  0001 L CNN "library id"
+F 17 "Nidec Copal" H 4150 5950 50  0001 L CNN "manufacturer"
+F 18 "Surface Mount" H 4150 6050 50  0001 L CNN "mount"
+F 19 "2N" H 4150 6150 50  0001 L CNN "operating force"
+F 20 "SMT_SW_6MM7_4MM1" H 4150 6250 50  0001 L CNN "package"
+F 21 "Yes" H 4150 6350 50  0001 L CNN "rohs"
+F 22 "+70°C" H 4150 6450 50  0001 L CNN "temperature range high"
+F 23 "-20°C" H 4150 6550 50  0001 L CNN "temperature range low"
+F 24 "SPDT" H 4150 6650 50  0001 L CNN "throw configuration"
+F 25 "4V" H 4150 6750 50  0001 L CNN "voltage rating DC"
+	1    4150 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3950 4250 3950
+Wire Wire Line
+	4850 3850 5300 3850
+Wire Wire Line
+	4850 4050 4850 4250
+Wire Wire Line
+	4850 4650 5150 4650
+Connection ~ 4850 4250
+Wire Wire Line
+	4850 4250 4850 4350
+Connection ~ 4850 4350
+Wire Wire Line
+	4850 4350 4850 4450
+Connection ~ 4850 4450
+Wire Wire Line
+	4850 4450 4850 4550
+Connection ~ 4850 4550
+Wire Wire Line
+	4850 4550 4850 4650
+Wire Wire Line
+	1500 3700 1450 3700
+Wire Wire Line
+	1500 3200 1750 3200
+Wire Wire Line
+	1750 3200 1750 3650
+$Comp
+L JST:S2B-PH-K-SLFSN J1
+U 1 1 5F75F293
+P 1300 3150
+F 0 "J1" H 1058 3515 50  0000 C CNN
+F 1 "S2B-PH-K-SLFSN" H 1058 3424 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:JST-S2B-PH-K-SLFSN-0-0-0" H 1300 3650 50  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1300 3750 50  0001 L CNN
+F 4 "Conn" H 1300 3850 50  0001 L CNN "category"
+F 5 "CONN HEADER PH SIDE 2POS 2MM" H 1300 3950 50  0001 L CNN "digikey description"
+F 6 "455-1719-ND" H 1300 4050 50  0001 L CNN "digikey part number"
+F 7 "yes" H 1300 4150 50  0001 L CNN "is connector"
+F 8 "yes" H 1300 4250 50  0001 L CNN "is male"
+F 9 "yes" H 1300 4350 50  0001 L CNN "lead free"
+F 10 "357283e2657f25f6" H 1300 4450 50  0001 L CNN "library id"
+F 11 "JST" H 1300 4550 50  0001 L CNN "manufacturer"
+F 12 "HDR02" H 1300 4650 50  0001 L CNN "package"
+F 13 "yes" H 1300 4750 50  0001 L CNN "rohs"
+F 14 "+85°C" H 1300 4850 50  0001 L CNN "temperature range high"
+F 15 "-25°C" H 1300 4950 50  0001 L CNN "temperature range low"
+	1    1300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3350 1500 3350
+Wire Wire Line
+	1500 3350 1500 3700
+Wire Wire Line
+	1200 3150 1500 3150
+Wire Wire Line
+	1500 3150 1500 3200
+$Comp
+L nice_nano:nice_nano_no_middle U1
+U 1 1 5F779DFC
+P 2000 1650
+F 0 "U1" H 2000 2587 60  0000 C CNN
+F 1 "nice_nano_no_middle" H 2000 2481 60  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:nice_nano_no_middle_socket" V 3050 -850 60  0001 C CNN
+F 3 "" V 3050 -850 60  0001 C CNN
+	1    2000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 950  2700 1000
+Wire Wire Line
+	2700 950  3000 950 
+Wire Wire Line
+	2700 1050 2700 1100
+Wire Wire Line
+	2700 1050 3000 1050
+Wire Wire Line
+	2700 1150 2700 1200
+Wire Wire Line
+	2700 1450 2700 1500
+Wire Wire Line
+	2700 1450 3600 1450
+Wire Wire Line
+	900  1000 1300 1000
+Wire Wire Line
+	1300 1400 1100 1400
+Wire Wire Line
+	1100 1400 1100 1550
+Wire Wire Line
+	850  1350 1300 1350
+Wire Wire Line
+	1300 1350 1300 1300
+Text GLabel 2800 2100 2    50   Input ~ 0
+row0
+Text GLabel 2800 2000 2    50   Input ~ 0
+row1
+Text GLabel 2800 1900 2    50   Input ~ 0
+row2
+Wire Wire Line
+	3300 1150 3300 1100
+Wire Wire Line
+	2700 1150 3300 1150
+Text GLabel 2800 1800 2    50   Input ~ 0
+col0
+Text GLabel 2800 1700 2    50   Input ~ 0
+col1
+Wire Wire Line
+	2700 1700 2800 1700
+Wire Wire Line
+	2700 1800 2800 1800
+Wire Wire Line
+	2800 1900 2700 1900
+Wire Wire Line
+	2700 2000 2800 2000
+Wire Wire Line
+	2700 2100 2800 2100
+$EndSCHEMATC
