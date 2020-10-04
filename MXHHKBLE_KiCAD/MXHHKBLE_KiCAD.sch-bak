@@ -108,19 +108,8 @@ Text GLabel 5300 3850 0    50   Input ~ 0
 BAT
 Text GLabel 3950 3950 0    50   Input ~ 0
 PowerToggle
-Text GLabel 3600 1450 0    50   Input ~ 0
+Text GLabel 3100 1450 2    50   Input ~ 0
 PowerToggle
-$Comp
-L MXHHKBLE_KiCAD:SW_SPST SW3
-U 1 1 5F6E65C5
-P 4750 1500
-F 0 "SW3" H 4750 1735 50  0000 C CNN
-F 1 "SW_SPST" H 4750 1644 50  0000 C CNN
-F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 4750 1500 50  0001 C CNN
-F 3 "~" H 4750 1500 50  0001 C CNN
-	1    4750 1500
-	1    0    0    -1  
-$EndComp
 $Comp
 L MXHHKBLE_KiCAD:SW_SPST SW2
 U 1 1 5F6EBC12
@@ -322,7 +311,7 @@ U 1 1 5F74B428
 P 4150 3950
 F 0 "SW0" H 4550 4315 50  0000 C CNN
 F 1 "CUS-12TB" H 4550 4224 50  0000 C CNN
-F 2 "eec_CUS-12TB:Nidec_Copal-CUS-12TB-MFG" H 4150 4450 50  0001 L CNN
+F 2 "MXHHKBLE_KiCAD:Nidec_Copal-CUS-12TB-MFG" H 4150 4450 50  0001 L CNN
 F 3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf" H 4150 4550 50  0001 L CNN
 F 4 "No" H 4150 4650 50  0001 L CNN "automotive"
 F 5 "Switch" H 4150 4750 50  0001 L CNN "category"
@@ -399,13 +388,7 @@ F 15 "-25°C" H 1300 4950 50  0001 L CNN "temperature range low"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 3350 1500 3350
-Wire Wire Line
 	1500 3350 1500 3700
-Wire Wire Line
-	1200 3150 1500 3150
-Wire Wire Line
-	1500 3150 1500 3200
 $Comp
 L nice_nano:nice_nano_no_middle U1
 U 1 1 5F779DFC
@@ -465,4 +448,25 @@ Wire Wire Line
 	2700 2000 2800 2000
 Wire Wire Line
 	2700 2100 2800 2100
+Wire Wire Line
+	1500 3150 1500 3200
+Wire Wire Line
+	1200 3150 1500 3150
+Wire Wire Line
+	1200 3350 1500 3350
+$Comp
+L MXHHKBLE_KiCAD:SW_SPST SW3
+U 1 1 5F6E65C5
+P 4750 1500
+F 0 "SW3" H 4750 1735 50  0000 C CNN
+F 1 "SW_SPST" H 4750 1644 50  0000 C CNN
+F 2 "MXHHKBLE_KiCAD:Kailh_PG1353" H 4750 1500 50  0001 C CNN
+F 3 "~" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2950 4500 2950
+Wire Wire Line
+	4500 2950 4500 3050
 $EndSCHEMATC
